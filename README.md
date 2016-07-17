@@ -1,4 +1,4 @@
-# ICTecnology
+# ICTechnology
 <P>
 Install
 <P>
