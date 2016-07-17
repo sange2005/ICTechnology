@@ -2,7 +2,7 @@ package net.minecraft.src;
  
 public class mod_EID extends BaseMod{
  
-    public static Block oreHoge;
+    public static Block EID;
     public int blockID;
     public String fileToOverride;
     public String textureFilePath;
