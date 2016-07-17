@@ -2,7 +2,7 @@ package net.minecraft.src;
  
 public class mod_lignite extends BaseMod{
  
-    public static Block oreHoge;
+    public static Block oreLignite;
     public int blockID;
     public String fileToOverride;
     public String textureFilePath;
@@ -15,42 +15,21 @@ public class mod_lignite extends BaseMod{
     	blockID = ;
     	fileToOverride = "/terrain.png";
     	textureFilePath = "/block/lignite.png";
-　　　　/*
-　　　　　BlockHogeクラスから新規BlockのIDとテクスチャファイルを指定
-　　　　　blockID:追加するBlockのIDを指定　ここでは120として定義
-　　　　　fileToOverride：GUIインベントリを使用しない場合は"/terrain.png"
-　　　　　　　　　　　　　GUIインベントリを使用する場合は"/gui/items.png"
-　　　　　textureFilePath：テクスチャの参照ファイルパスを指定
-　　　　*/
-    	orelignite = new BlockLignite(blockID, ModLoader.addOverride(fileToOverride, textureFilePath));
-　　　　/*
-　　　　　setHardness:対象Blockの硬さをFloatで指定　デフォルトは3F
-　　　　*/
-    	orelignite.setHardness(3F);
-　　　　/*
-　　　　　setBlockName:対象Blockの名前を指定
-　　　　*/
-    	orelignite.setBlockName("lignite");
-　　　　/*
-　　　　　setResistance：対象Blockの爆破耐性をFloatで指定　デフォルトは5F
-　　　　*/
-    	orelignite.setResistance(5F);
-　　　　/*
-　　　　　setStepSound：対象Blockの上を歩いた際の音を指定
-　　　　　下記では石の上を歩いた場合と同じ音を参照
-　　　　*/
-    	orelignite.setStepSound(Block.soundStoneFootstep);
-　　　　/*
-　　　　　setLightValue：対象ブロックを発光させる場合、明るさをFloatで指定
-　　　　*/
-    	orelignite.setLightValue(1.0F);
-　　　　/*
-　　　　　ModLoader.registerBlock：指定したBlockデータを登録します。
-　　　　*/
-    	ModLoader.registerBlock(orelignite);
-　　　　/*
-　　　　　ModLOader.addName：Minecraftで表示させるBlockの名前を指定
-　　　　*/
+　　　　
+    	oreLignite = new BlockLignite(blockID, ModLoader.addOverride(fileToOverride, textureFilePath));
+　　　　
+    	oreLignite.setHardness(3F);
+　　　　
+    	oreLignite.setBlockName("orelignite");
+　　　　
+    	oreLignite.setResistance(5F);
+　　　　
+    	oreLignite.setStepSound(Block.soundStoneFootstep);
+　　　　
+    	oreLignite.setLightValue(1.0F);
+　　　　
+    	ModLoader.registerBlock(oreLignite);
+　　　　
         ModLoader.addName(oreLignite, "Lignite Ore");
     }
     public String getVersion()
