@@ -1,6 +1,6 @@
  package net.minecraft.src;
  
- public class Block_eid extends BaseMod {
+ public class Block_EID extends BaseMod {
  
     public String getVersion() {
        return "1.0.0";
