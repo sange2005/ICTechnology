@@ -1,0 +1,60 @@
+package net.minecraft.src;
+ 
+public class mod_magnetite extends BaseMod{
+ 
+    public static Block oreMagnetite;
+    public int blockID;
+    public String fileToOverride;
+    public String textureFilePath;
+ 
+    public mod_hoge()
+    {
+    }
+    public void load()
+    {
+    	blockID = ;
+    	fileToOverride = "/terrain.png";
+    	textureFilePath = "/block/hoge.png";
+　　　　/*
+　　　　　BlockHogeクラスから新規BlockのIDとテクスチャファイルを指定
+　　　　　blockID:追加するBlockのIDを指定　ここでは120として定義
+　　　　　fileToOverride：GUIインベントリを使用しない場合は"/terrain.png"
+　　　　　　　　　　　　　GUIインベントリを使用する場合は"/gui/items.png"
+　　　　　textureFilePath：テクスチャの参照ファイルパスを指定
+　　　　*/
+    	oreMagnetite = new BlockMagnetite(blockID, ModLoader.addOverride(fileToOverride, textureFilePath));
+　　　　/*
+　　　　　setHardness:対象Blockの硬さをFloatで指定　デフォルトは3F
+　　　　*/
+    	oreMagnetite.setHardness(3F);
+　　　　/*
+　　　　　setBlockName:対象Blockの名前を指定
+　　　　*/
+    	oreMagnetite.setBlockName("oreMagnetite");
+　　　　/*
+　　　　　setResistance：対象Blockの爆破耐性をFloatで指定　デフォルトは5F
+　　　　*/
+    	oreMagnetite.setResistance(5F);
+　　　　/*
+　　　　　setStepSound：対象Blockの上を歩いた際の音を指定
+　　　　　下記では石の上を歩いた場合と同じ音を参照
+　　　　*/
+    	oreMagnetite.setStepSound(Block.soundStoneFootstep);
+　　　　/*
+　　　　　setLightValue：対象ブロックを発光させる場合、明るさをFloatで指定
+　　　　*/
+    	oreMagnetite.setLightValue(1.0F);
+　　　　/*
+　　　　　ModLoader.registerBlock：指定したBlockデータを登録します。
+　　　　*/
+    	ModLoader.registerBlock(oreMagnetite);
+　　　　/*
+　　　　　ModLOader.addName：Minecraftで表示させるBlockの名前を指定
+　　　　*/
+        ModLoader.addName(oreMagnetite, "Magnetite Ore");
+    }
+    public String getVersion()
+    {
+            return "1.0.0";
+    }
+}
