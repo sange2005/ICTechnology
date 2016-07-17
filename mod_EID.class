@@ -7,7 +7,7 @@ public class mod_EID extends BaseMod{
     public String fileToOverride;
     public String textureFilePath;
  
-    public mod_hoge()
+    public mod_EID()
     {
     }
     public void load()
