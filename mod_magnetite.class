@@ -14,7 +14,7 @@ public class mod_magnetite extends BaseMod{
     {
     	blockID = ;
     	fileToOverride = "/terrain.png";
-    	textureFilePath = "/block/hoge.png";
+    	textureFilePath = "/block/magnetite.png";
 　　　　/*
 　　　　　BlockHogeクラスから新規BlockのIDとテクスチャファイルを指定
 　　　　　blockID:追加するBlockのIDを指定　ここでは120として定義
