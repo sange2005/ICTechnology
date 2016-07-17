@@ -1,0 +1,39 @@
+package net.minecraft.src;
+ 
+public class mod_EID extends BaseMod{
+ 
+    public static Block oreHoge;
+    public int blockID;
+    public String fileToOverride;
+    public String textureFilePath;
+ 
+    public mod_hoge()
+    {
+    }
+    public void load()
+    {
+    	blockID = 120;
+    	fileToOverride = "/gui/items.png";
+    	textureFilePath = "/block/eid.png";
+
+    	EID = new EID(blockID, ModLoader.addOverride(fileToOverride, textureFilePath));
+
+    	EID.setHardness(5F);
+
+    	EID.setBlockName("EID");
+
+    	EID.setResistance(5F);
+
+    	EID.setStepSound(Block.soundStoneFootstep);
+
+    	EID.setLightValue(0.0F);
+
+    	ModLoader.registerBlock(EID);
+
+        ModLoader.addName(EID, "Energy Integrated Device");
+    }
+    public String getVersion()
+    {
+            return "1.0.0";
+    }
+}
