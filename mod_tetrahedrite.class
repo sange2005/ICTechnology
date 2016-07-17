@@ -26,7 +26,7 @@ public class mod_tetrahedrite extends BaseMod{
 　　　　
     	oreTetrahedrite.setStepSound(Block.soundStoneFootstep);
 　　　　
-    	oreTetrahedritr.setLightValue(1.0F);
+    	oreTetrahedrite.setLightValue(1.0F);
 　　　　
     	ModLoader.registerBlock(oreTetrahedrite);
 　　　　
