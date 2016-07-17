@@ -1,13 +1,13 @@
 package net.minecraft.src;
  
-public class mod_hoge extends BaseMod{
+public class mod_tetrahedrite extends BaseMod{
  
-    public static Block oreHoge;
+    public static Block oreTetrahedrite;
     public int blockID;
     public String fileToOverride;
     public String textureFilePath;
  
-    public mod_hoge()
+    public mod_tetrahedrite()
     {
     }
     public void load()
