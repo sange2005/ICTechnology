@@ -12,7 +12,7 @@ public class mod_lignite extends BaseMod{
     }
     public void load()
     {
-    	blockID = 120;
+    	blockID = ;
     	fileToOverride = "/terrain.png";
     	textureFilePath = "/block/lignite.png";
 　　　　/*
