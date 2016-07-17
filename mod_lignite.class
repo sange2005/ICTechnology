@@ -47,11 +47,11 @@ public class mod_lignite extends BaseMod{
 　　　　/*
 　　　　　ModLoader.registerBlock：指定したBlockデータを登録します。
 　　　　*/
-    	ModLoader.registerBlock(lignite);
+    	ModLoader.registerBlock(orelignite);
 　　　　/*
 　　　　　ModLOader.addName：Minecraftで表示させるBlockの名前を指定
 　　　　*/
-        ModLoader.addName(oreHoge, "Lignite Ore");
+        ModLoader.addName(oreLignite, "Lignite Ore");
     }
     public String getVersion()
     {
