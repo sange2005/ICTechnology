@@ -11,7 +11,9 @@
                            Character.valueOf('X'),Block.diamond });
                            Character.valueOf('Y'),Block.diamond });
 
-//X=グラスファイバー Y=MFSU
+/*
+X=グラスファイバー Y=MFSU
+*/
  
  
     }   
