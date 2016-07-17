@@ -12,14 +12,14 @@ Install
 <P>
 5.Download [ICTecnology]
 <P>
-6.Install [Minecraft Forge 3.4.9.171]
+6.Install Minecraft Forge 3.4.9.171
 <P>
-7.Install [OptiFine_1.2.5_HD_U_C7]
+7.Install OptiFine_1.2.5_HD_U_C7
 <P>
-8.Install [Minecraft API]
+8.Install Minecraft API
 <P>
-9.Install [IndustrialCraft2]
+9.Install IndustrialCraft2
 <P>
-10.Install [ICTecnology]
+10.Install ICTecnology
 <P>
-11.Play [Minecraft 1.2.5]
+11.Play Minecraft 1.2.5
