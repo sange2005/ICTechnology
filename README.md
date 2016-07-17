@@ -1,6 +1,7 @@
 # ICTecnology
-
+<P>
 Install
+<P>
 1.Download [Minecraft Forge 3.4.9.171]
 <P>
 2.Download [OptiFine 1.2.5 HD U C7]
