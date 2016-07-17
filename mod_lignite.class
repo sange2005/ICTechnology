@@ -14,7 +14,7 @@ public class mod_lignite extends BaseMod{
     {
     	blockID = 120;
     	fileToOverride = "/terrain.png";
-    	textureFilePath = "/block/hoge.png";
+    	textureFilePath = "/block/lignite.png";
 　　　　/*
 　　　　　BlockHogeクラスから新規BlockのIDとテクスチャファイルを指定
 　　　　　blockID:追加するBlockのIDを指定　ここでは120として定義
