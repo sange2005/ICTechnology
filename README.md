@@ -6,7 +6,7 @@ Install
 <P>
 2.Download [OptiFine 1.2.5 HD U C7](http://adf.ly/404181/optifine.net/adloadx.php?f=OptiFine_1.2.5_HD_U_C7.zip)
 <P>
-3.Download [Minecraft API](http://minecraft125user.nisfan.net/forum/viewtopic.php?f=11&t=133&sid=00054328ae0a227b09cd7d0f3489d94b)
+3.Download [Minecraft API(Japanese)](http://minecraft125user.nisfan.net/forum/viewtopic.php?f=11&t=133&sid=00054328ae0a227b09cd7d0f3489d94b)
 <P>
 4.Download [IndustrialCraft2](http://forum.industrial-craft.net/index.php?page=Thread&threadID=5896)
 <P>
