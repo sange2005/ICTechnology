@@ -20,7 +20,7 @@ public class mod_lignite extends BaseMod{
 　　　　
     	oreLignite.setHardness(3F);
 　　　　
-    	oreLignite.setBlockName("orelignite");
+    	oreLignite.setBlockName("oreLignite");
 　　　　
     	oreLignite.setResistance(5F);
 　　　　
